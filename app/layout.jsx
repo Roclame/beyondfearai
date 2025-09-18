@@ -27,10 +27,13 @@ export default function RootLayout({ children }) {
       <body className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100 antialiased">
         <header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
           <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-            <div className="font-semibold tracking-tight">
-              Beyond Fear AI{" "}
-              <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
-                Parasol v1
+           <div className="font-bold tracking-tight text-lg text-slate-100 drop-shadow-[0_0_6px_rgba(59,130,246,0.35)]">
+  Beyond Fear AI{" "}
+  <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
+    Parasol v1
+  </span>
+</div>
+
               </span>
             </div>
             <Nav />
