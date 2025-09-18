@@ -1,12 +1,11 @@
-export default function Page() {
+export default function AIManagers() {
   return (
-    <div className="space-y-6">
-      <section className="rounded-2xl border p-6 bg-white shadow-sm">
-        <h1 className="text-2xl font-semibold tracking-tight">AI Managers</h1>
-        <div className="mt-3 space-y-3">
-          <p className='text-slate-700'>Brokers between the offline kernel and the online world.</p>\n<p className='text-slate-700'>No internet; communicate with the core via one-way data-diode protocols.</p>\n<p className='text-slate-700'>Normalize/sanitize input; validate & filter output; route tasks; enforce quotas.</p>\n<p className='text-slate-700'>Optional human-in-the-loop review queues for sensitive tasks.</p>\n
-        </div>
-      </section>
+    <div className="rounded-xl bg-slate-900/60 ring-1 ring-slate-800 p-6 space-y-4">
+      <h2 className="text-2xl font-bold text-slate-100">AI Managers</h2>
+      <p className="text-slate-300">
+        Gatekeepers between the outside world and the core kernel.  
+        They distribute tasks to specializations, prevent uncontrolled growth, and provide structured oversight.
+      </p>
     </div>
   );
 }
