@@ -1,12 +1,11 @@
-export default function Page() {
+export default function Applications() {
   return (
-    <div className="space-y-6">
-      <section className="rounded-2xl border p-6 bg-white shadow-sm">
-        <h1 className="text-2xl font-semibold tracking-tight">Applications</h1>
-        <div className="mt-3 space-y-3">
-          <p className='text-slate-700'>Critical infrastructure resilience (ports, logistics, energy).</p>\n<p className='text-slate-700'>Safe medical/legal support under guardrails.</p>\n<p className='text-slate-700'>Transparent risk communication without fear-mongering.</p>\n<p className='text-slate-700'>Predictive scenarios with human-in-the-loop validation.</p>\n<ul className='list-disc pl-6 space-y-1 text-slate-700'>\n  <li>Add case pages later (e.g., Rotterdam, medication flows, public comms).</li>\n</ul>\n
-        </div>
-      </section>
+    <div className="rounded-xl bg-slate-900/60 ring-1 ring-slate-800 p-6 space-y-4">
+      <h2 className="text-2xl font-bold text-slate-100">Applications</h2>
+      <p className="text-slate-300">
+        From research to real-world systems — built with trust, not fear.  
+        Beyond Fear AI provides a framework that adapts safely to future use cases, without losing control.
+      </p>
     </div>
   );
 }
