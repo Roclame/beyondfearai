@@ -1,12 +1,12 @@
-export default function Page() {
+export default function CoreKernel() {
   return (
-    <div className="space-y-6">
-      <section className="rounded-2xl border p-6 bg-white shadow-sm">
-        <h1 className="text-2xl font-semibold tracking-tight">Core Kernel</h1>
-        <div className="mt-3 space-y-3">
-          <p className='text-slate-700'>Offline by design: no internet connection, no network stack.</p>\n<p className='text-slate-700'>One-time blackbox seal (HSM/TPM) with unreadable key & protocol.</p>\n<p className='text-slate-700'>Policy Engine: allow/deny rules, capability-based APIs.</p>\n<p className='text-slate-700'>Local memory: encrypted, append-only, explainable logs.</p>\n
-        </div>
-      </section>
+    <div className="rounded-xl bg-slate-900/60 ring-1 ring-slate-800 p-6 space-y-4">
+      <h2 className="text-2xl font-bold text-slate-100">Core Kernel</h2>
+      <p className="text-slate-300">
+        The heart of Beyond Fear AI.  
+        A protected kernel that does not connect directly to the internet.  
+        It processes only what is delivered by trusted AI managers, ensuring control and safety at the core.
+      </p>
     </div>
   );
 }
