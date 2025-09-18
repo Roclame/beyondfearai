@@ -1,12 +1,11 @@
-export default function Page() {
+export default function Governance() {
   return (
-    <div className="space-y-6">
-      <section className="rounded-2xl border p-6 bg-white shadow-sm">
-        <h1 className="text-2xl font-semibold tracking-tight">Governance & Fail-safes</h1>
-        <div className="mt-3 space-y-3">
-          <p className='text-slate-700'>Kill-switches at manager and hardware levels.</p>\n<p className='text-slate-700'>Write-once audit trails; explainability by default.</p>\n<p className='text-slate-700'>Red-team exercises (injection, poisoning, supply chain).</p>\n<p className='text-slate-700'>Separation of duties: dev ≠ ops ≠ security ≠ policy.</p>\n
-        </div>
-      </section>
+    <div className="rounded-xl bg-slate-900/60 ring-1 ring-slate-800 p-6 space-y-4">
+      <h2 className="text-2xl font-bold text-slate-100">Governance</h2>
+      <p className="text-slate-300">
+        Governance ensures transparency and accountability.  
+        Blackbox protocols, ethical checks, and human oversight keep Beyond Fear AI aligned with human values.
+      </p>
     </div>
   );
 }
