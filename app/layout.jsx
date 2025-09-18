@@ -44,11 +44,17 @@ export default function RootLayout({ children }) {
         </main>
 
         <footer className="border-t border-slate-800 py-6">
-          <div className="max-w-5xl mx-auto px-4 text-sm text-slate-400 flex flex-wrap items-center justify-between gap-3">
-            <span>© {new Date().getFullYear()} Beyond Fear AI</span>
-            <span>Built with structure, not fear.</span>
-          </div>
-        </footer>
+  <div className="max-w-5xl mx-auto px-4 text-sm text-slate-400 flex flex-wrap items-center justify-between gap-3">
+    <span>© {new Date().getFullYear()} Beyond Fear AI</span>
+    <a
+      href="mailto:contact@beyondfearai.org"
+      className="hover:text-slate-200 transition"
+    >
+      contact@beyondfearai.org
+    </a>
+  </div>
+</footer>
+
       </body>
     </html>
   );
