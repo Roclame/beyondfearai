@@ -27,15 +27,10 @@ export default function RootLayout({ children }) {
       <body className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100 antialiased">
         <header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
           <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-           <div className="font-bold tracking-tight text-xl text-slate-100 drop-shadow-[0_0_10px_rgba(59,130,246,0.6)]">
-  Beyond Fear AI
-</div>
-{" "}
-  <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
-    Parasol v1
-  </span>
-</div>
-
+            <div className="font-bold tracking-tight text-lg text-slate-100">
+              Beyond Fear AI{" "}
+              <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
+                Parasol v1
               </span>
             </div>
             <Nav />
@@ -49,17 +44,13 @@ export default function RootLayout({ children }) {
         </main>
 
         <footer className="border-t border-slate-800 py-6">
-  <div className="max-w-5xl mx-auto px-4 text-sm text-slate-400 flex flex-wrap items-center justify-between gap-3">
-    <span>© {new Date().getFullYear()} Beyond Fear AI</span>
-    <a
-      href="mailto:contact@beyondfearai.org"
-      className="hover:text-slate-200 transition"
-    >
-      contact@beyondfearai.org
-    </a>
-  </div>
-</footer>
-
+          <div className="max-w-5xl mx-auto px-4 text-sm text-slate-400 flex flex-wrap items-center justify-between gap-3">
+            <span>© {new Date().getFullYear()} Beyond Fear AI</span>
+            <a href="mailto:contact@beyondfearai.org" className="hover:text-slate-200 transition">
+              contact@beyondfearai.org
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
