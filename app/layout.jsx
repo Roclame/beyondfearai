@@ -24,19 +24,18 @@ const Nav = () => (
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-<header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
-  <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-    <div className="font-bold tracking-tight text-lg text-slate-100">
-      Beyond Fear AI{" "}
-      <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
-        Parasol v1
-      </span>
-    </div>
-    <Nav />
-  </div>
-</header>
-
-
+      <body className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100 antialiased">
+        <header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
+          <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="font-bold tracking-tight text-lg text-slate-100">
+              Beyond Fear AI{" "}
+              <span className="text-xs ml-2 border border-slate-700 rounded-full px-2 py-0.5 text-slate-300">
+                Parasol v1
+              </span>
+            </div>
+            <Nav />
+          </div>
+        </header>
 
         <main className="max-w-5xl mx-auto px-4 py-8">
           <div className="rounded-2xl bg-slate-900/60 ring-1 ring-slate-800 p-6">
