@@ -24,8 +24,7 @@ const Nav = () => (
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-slate-100 antialiased">
-        <header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
+<header className="sticky top-0 z-10 bg-slate-900/80 backdrop-blur border-b border-slate-800">
   <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
     <div className="font-bold tracking-tight text-lg text-slate-100">
       Beyond Fear AI{" "}
@@ -36,6 +35,7 @@ export default function RootLayout({ children }) {
     <Nav />
   </div>
 </header>
+
 
 
         <main className="max-w-5xl mx-auto px-4 py-8">
